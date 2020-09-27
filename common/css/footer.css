@@ -1,0 +1,90 @@
+.footer {
+  background-color: var(--color-light-accent-1);
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--color-light-accent-2);
+}
+
+.footer-container-first, .footer-container-last {
+  flex: 1;
+  background-color: var(--color-light-accent-1);
+}
+
+.footer-container-first {
+  border-right: 1px solid var(--color-light-accent-2);
+}
+
+.footer-container-last {
+  border-left: 1px solid var(--color-light-accent-2);
+}
+
+.footer-container-main {
+  flex: 3;
+  height: 100%;
+  border-top: 1px solid var(--color-light-accent-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github-logo svg {
+  height: 5rem !important;
+}
+
+#footer-copyright {
+  margin: 2rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.footer-nav li {
+
+  list-style-type: none;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+
+
+}
+
+.footer-nav * {
+  font-family: var(--font-family-headings-main);
+  transition-duration: 0.4s;
+}
+
+.footer-nav, .footer-nav ul {
+
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+.footer-nav {
+  border-right: 1px solid var(--color-light-accent-2);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#footer-nav-title {
+  font-weight: bold;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-light-accent-2);
+}
+
+.center-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
